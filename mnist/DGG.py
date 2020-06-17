@@ -584,7 +584,7 @@ def training_p(num_neighors):
 		image_train.append(data_temp)
 
 	image_train = to_numpy(torch.cat(image_train,dim=-1))
-	image_train = (image_train + 1)/2
+	# image_train = (image_train + 1)/2
 
 	label_train = torch.load('./data/mnist/mnist_label_all_siamese.pkl')
 

@@ -215,7 +215,7 @@ if __name__ == '__main__':
 
 	print('| Generate training data')
 
-	reuse_data = 1
+	reuse_data = 0
 
 	if reuse_data == 0:
 		data1, data2, label = Form_data(torch.from_numpy(image_train))
@@ -232,7 +232,7 @@ if __name__ == '__main__':
 	print("| Number of positive pairs: {} Number of negative pairs: {}".format(torch.sum(label), label.size(0)-torch.sum(label)))
 	print("| Completed.")
 
-	resume = 1
+	resume = 0
 
 	use_trainedweight = 1
 	print("2. Construct the Siamese model")
