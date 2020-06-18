@@ -2,6 +2,8 @@
 Pytorch implementation of the paper:
 Linxiao Yang, Ngai-Man Cheung, Jiaying Li, and Jun Fang, "Deep Clustering by Gaussian Mixture Variational Autoencoders with Graph Embedding", In ICCV 2019.
 
+The source code is published with the permission of authors.
+
 #### Run Example:
 ```
 $ python Siamesev0.py
