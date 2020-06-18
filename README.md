@@ -9,7 +9,7 @@ $ python DGG.py
 ```
 ### Note: 
 
-#### The source code is published with permission of authors.
+#### This code is published with permission of authors.
 
 The pretrained weight obtained from the VaDE's code [1].
 
